@@ -88,3 +88,10 @@ pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 git init
 git status
 git add .
+git status
+git remote set-url origin https://github.com/tamyressilvazz/celestial-bodies-db.git
+git branch -M main
+git commit -m "dump freecodecamp project"
+git push -u origin main
+git status
+git add .
